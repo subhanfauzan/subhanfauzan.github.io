@@ -1,6 +1,5 @@
 import { Header } from './components/Header.jsx'
 import { Hero } from './components/Hero.jsx'
-import { About } from './components/About.jsx'
 import { Experience } from './components/Experience.jsx'
 import { Projects } from './components/Projects.jsx'
 import { Skills } from './components/Skills.jsx'
@@ -15,7 +14,6 @@ export default function App() {
       <Header />
       <main className="mx-auto flex w-full max-w-3xl flex-col gap-14 px-4 pb-16 pt-8 sm:gap-16 sm:px-6 sm:pt-12">
         <Hero />
-        <About />
         <Experience />
         <Projects />
         <Skills />
