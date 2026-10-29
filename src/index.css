@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background-color: #1d9bf0;
+    color: #fff;
+  }
+}
+
+@layer utilities {
+  .card-spotlight {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .card-spotlight::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 200ms ease;
+    background: radial-gradient(
+      340px circle at var(--mouse-x, 0) var(--mouse-y, 0),
+      var(--spotlight-color, rgba(0, 0, 0, 0.06)),
+      transparent 60%
+    );
+    pointer-events: none;
+  }
+
+  .card-spotlight:hover::before {
+    opacity: 1;
+  }
+}
