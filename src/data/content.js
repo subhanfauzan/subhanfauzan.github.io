@@ -74,7 +74,7 @@ export const experience = [
   {
     dates: "Sep 2026 — Present",
     title: "IT Intern Professional",
-    company: "PT. Fokus Jasa Mitra",
+    company: "PT. Fokus Jasa Mitra (Petrokimia Group)",
     location: "Gresik, East Java",
     description: [
       "Developing a cooperative management application to digitize administrative and operational processes.",
@@ -148,7 +148,7 @@ export const projects = [
     title: "Cooperative Management App",
     subtitle: "Administrative Digitalization",
     description:
-      "Building a cooperative management application at PT Fokus Jasa Mitra to digitize administrative and operational workflows, from member records to reporting.",
+      "Building a cooperative management application at PT. Fokus Jasa Mitra (Petrokimia Group) to digitize administrative and operational workflows, from member records to reporting.",
     tag: "2026 — Present",
     points: [
       "Process digitalization",
